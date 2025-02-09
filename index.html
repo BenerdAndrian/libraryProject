@@ -9,6 +9,18 @@
 <body>
     <h1>Library</h1>
     <div class="books">
+        <button id="openDialog">+ Add Book</button>
+        <dialog id="myDialog">
+            <form id="theForm" method="dialog">
+                <label for="bookTitle">Book's title: <input id="bookTitle" type="text" name="name"></label>
+                <label for="bookAuthor">Book's Author: <input id="bookAuthor" type="text" name="author"></label>
+                <label for="bookPages">Book's Pages: <input id="bookPages" type="text" name="pages"></label>
+                <button type="submit">Add</button>
+                <button type="button" id="closeDialog">Hủy</button>
+            </form>
+            
+            
+        </dialog>
         <ul class="bookList">
 
         </ul>

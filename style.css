@@ -33,3 +33,32 @@ html{
     font-size:1rem;
     color:grey;
 }
+.books>button{
+    padding:0.75rem;
+    font-size:1rem;
+    margin:auto;
+    display:block;
+    margin:1rem auto;
+    cursor:pointer;
+}
+#myDialog{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+form{
+    font-size:1rem;
+}
+form label{
+    margin-right:3rem;
+    font-weight:bold;
+}
+form label input{
+    font-size:1rem;
+    padding:0.3rem;
+}
+form button{
+    padding:0.25rem 0.6rem;
+    font-size:8px;
+}
